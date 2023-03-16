@@ -1,0 +1,30 @@
+body {
+  background-color: antiquewhite;
+}
+section {
+  width: 70vw;
+  margin: auto;
+}
+.search {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  border: brown 1px solid;
+}
+.search:focus {
+  outline: black 1px solid;
+}
+.btn {
+  width: 100px;
+  color: brown;
+  border: 1px solid brown;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: burlywood;
+  cursor: pointer;
+}
+.results {
+  margin-top: 20px;
+}
