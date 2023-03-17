@@ -13,8 +13,6 @@ async function getData() {
     return;
   }
 
-  // const regexp = /A-Za-z0-9-_/g;
-  //const requestURL = `https://api.github.com/search/repositories?q=${search.value}+name:${search.value}&sort=stars&order=desc&per_page=10`;
   const requestURL = `https://api.github.com/search/repositories?q=${search.value}+in:name&sort=stars&order=desc&per_page=10`;
 
   try {
