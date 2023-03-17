@@ -7,3 +7,5 @@ Block, which can help to find github repo, includes entered substring.
 - Get results!
 
 Search starts by click on the search-button and by press "Enter".
+
+Used GitHub REST API.
