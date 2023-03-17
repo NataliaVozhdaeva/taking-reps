@@ -25,6 +25,68 @@ section {
   background-color: burlywood;
   cursor: pointer;
 }
-.results {
-  margin-top: 20px;
+.result-list {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  justify-content: space-around;
+  list-style: none;
+}
+.result-item {
+  box-sizing: border-box;
+  width: 49%;
+  height: auto;
+  padding: 20px 45px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 50px;
+  box-shadow: 0 5px 15px lightslategray;
+}
+.repo-link {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.repo-link:hover {
+  color: royalblue;
+  cursor: pointer;
+}
+.repo-author {
+  position: relative;
+  min-width: 45%;
+  padding-top: 20px;
+  text-align: left;
+}
+.repo-author::before {
+  content: 'owner';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.8em;
+  color: brown;
+}
+.repo-update {
+  position: relative;
+  width: 25%;
+  padding-top: 20px;
+  text-align: right;
+}
+.repo-update::before {
+  content: 'last update';
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.8em;
+  color: brown;
 }
